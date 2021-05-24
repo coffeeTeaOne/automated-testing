@@ -1,0 +1,8 @@
+--- info msg ---
+---- warning msg
+---- error msg ---
+----critical msg----
+2021-05-17 10:52:22,604 - utils_log.py[line:82] - INFO: --- info msg ---
+2021-05-17 10:52:22,604 - utils_log.py[line:83] - WARNING: ---- warning msg
+2021-05-17 10:52:22,604 - utils_log.py[line:84] - ERROR: ---- error msg ---
+2021-05-17 10:52:22,604 - utils_log.py[line:85] - CRITICAL: ----critical msg----

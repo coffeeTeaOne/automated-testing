@@ -1,0 +1,16 @@
+2021-05-17 11:05:21,644 - utils_log.py[line:88] - INFO: --- info msg ---
+2021-05-17 11:05:21,644 - utils_log.py[line:89] - WARNING: ---- warning msg
+2021-05-17 11:05:21,645 - utils_log.py[line:90] - ERROR: ---- error msg ---
+2021-05-17 11:05:21,645 - utils_log.py[line:91] - CRITICAL: ----critical msg----
+2021-05-17 11:17:34,356 - utils_log.py[line:87] - INFO: --- info msg ---
+2021-05-17 11:17:34,356 - utils_log.py[line:88] - WARNING: ---- warning msg
+2021-05-17 11:17:34,356 - utils_log.py[line:89] - ERROR: ---- error msg ---
+2021-05-17 11:17:34,356 - utils_log.py[line:90] - CRITICAL: ----critical msg----
+2021-05-17 11:18:43,367 - utils_log.py[line:93] - INFO: --- info msg ---
+2021-05-17 11:18:43,367 - utils_log.py[line:94] - WARNING: ---- warning msg
+2021-05-17 11:18:43,367 - utils_log.py[line:95] - ERROR: ---- error msg ---
+2021-05-17 11:18:43,367 - utils_log.py[line:96] - CRITICAL: ----critical msg----
+2021-05-17 11:19:27,707 - utils_log.py[line:95] - INFO: --- info msg ---
+2021-05-17 11:19:27,707 - utils_log.py[line:96] - WARNING: ---- warning msg
+2021-05-17 11:19:27,707 - utils_log.py[line:97] - ERROR: ---- error msg ---
+2021-05-17 11:19:27,707 - utils_log.py[line:98] - CRITICAL: ----critical msg----

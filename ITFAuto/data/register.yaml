@@ -1,0 +1,33 @@
+- # 注册成功
+  method: post
+  url: http://hn216.api.yesapi.cn/?s=App.User.Register
+  data:
+      app_key: 5227C53B83002D99A28D874326F07BB6
+      username: tj2022
+      password: ae43013c7d3446f7e9bebddd79cb3b89
+  expected:
+    - err_msg=用户已注册，不能重复注册
+    - err_code=1
+    - ret=200
+
+- #app_key 为空
+  method: post
+  url: http://hn216.api.yesapi.cn/?s=App.User.Register
+  data:
+      app_key: ''
+      username: tj2021
+      password: ae43013c7d3446f7e9bebddd79cb3b89
+  expected:
+    - ret=400
+    - msg=客户端非法请求：app_key.len应该大于或等于32
+
+- #  username为空
+  method: post
+  url: http://hn216.api.yesapi.cn/?s=App.User.Register
+  data:
+      app_key: 5227C53B83002D99A28D874326F07BB6
+      username:
+      password: ae43013c7d3446f7e9bebddd79cb3b89
+  expected:
+    - ret=400
+    - msg=客户端非法请求：缺少必要参数username
