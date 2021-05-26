@@ -1,0 +1,10 @@
+-  # case 1
+  method: post
+  url: http://hn216.api.yesapi.cn/?s=App.User.Profile
+  data:
+    app_key:
+    uuid:
+    token:
+  exptected:
+    - ret=200
+    - err_code=1

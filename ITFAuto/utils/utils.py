@@ -4,7 +4,10 @@
 # @Time      :2021/5/23 17:30
 # @author    :Harry
 import os
-from config.setting import DATA_PATH, TEMPLATE_PATH, CASE_PATH
+
+from ITFAuto.config.setting import DATA_PATH,TEMPLATE_PATH, CASE_PATH
+
+
 
 def create_case():
     """从模板中读取内容，生成新的testcase用例"""
